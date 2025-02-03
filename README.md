@@ -15,7 +15,7 @@ How to use it?
     pip install -r requirements.txt
     ```
 
-3. You have to install JAX for that read the **Note** Section
+3. You have to install `JAX` for that read the **Note** Section
 4. Run the app  
     ```shell
     streamlit run Main.py
@@ -42,4 +42,6 @@ By time of this writing JAX's GPU version only supports `Linux x86_64` and
 So in cause its does not install properly use CPU version insted
 We use WSL for CUDA support and its works properly on WSL 
 So if you want to use GPU version use WSL
+
+We are running `python` version `3.10.16`
 
