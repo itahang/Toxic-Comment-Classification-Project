@@ -1,5 +1,8 @@
 {
     "name":"100D model",
     "paramaterLocation":"Paramaters/100DParamaters.pkl",
-    "embeddingsLocation":"Embeddings/Embedding 100d.npy"
+    "embeddingsLocation":"Embeddings/Embedding 100d.npy",
+    "dimentions":[100,150,200,100,64,32,6],
+    "nLSTM":2,
+    "nMLP":4
 }
