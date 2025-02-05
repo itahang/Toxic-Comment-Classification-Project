@@ -62,7 +62,7 @@ def paddedTokens(text,length=30):
         txt = jax.lax.pad(txt,0,[(0, diff, 0)])
     return txt        
 
-def createTokens(text):
+def createTokens(vocab,text):
     text= preprocess(text)
     ret=[]
     for word in text.split(' '):
@@ -73,7 +73,7 @@ def createTokens(text):
     return ret
 
 
-def create_embedding_matrix(vocab, embedding_dim=100):
+def create_embedding_matrix(vocab,glove_vectors, embedding_dim=100):
     vocab_size = len(vocab)
     weights = np.zeros((vocab_size, embedding_dim))
     

@@ -9,7 +9,7 @@ from jax import numpy as jnp
 
 stpwds = stopwords.words('english')
 
-nlp = spacy.load("en_core_web_sm")
+# nlp = spacy.load("en_core_web_sm")
 
 
 punc = string.punctuation

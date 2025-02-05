@@ -1,0 +1,5 @@
+{
+    "name":"100D model",
+    "paramaterLocation":"Paramaters/100DParamaters.pkl",
+    "embeddingsLocation":"Embeddings/Embedding 100d.npy"
+}
